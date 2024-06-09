@@ -12,12 +12,13 @@
 > **Note:** Bu projeyi çalıştırmak için aşağıdaki yazılımların yüklü olması gerekmektedir.
 - 📦 Visual Studio 2022 - [Download](https://visualstudio.microsoft.com/tr/downloads/)
 - 📦 .Net 8.0 SDK - [Download](https://dotnet.microsoft.com/download/dotnet/8.0)
-- 📦 SQLite - Projeye dahili
+- 📦 Git - [Download](https://git-scm.com/downloads)
+- 📦 SQLite - Projeye dahil
 - 📦 Docker Desktop (Opsiyonel)
 - 📦 MSSQL 2022 Server (Opsiyonel)
 - 📦 SQL Server Management Studio 20 (Opsiyonel)
 
-> **Note:** SQL Server Bağlantısı:
+> **Not:** SQL Server Bağlantısı:
 
 ```vb
 ' SQL Server Connection
@@ -40,7 +41,7 @@ $ docker run -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=!#1Password" -p 1433:1433 
 
 - 🌐 SQL Server [127.0.0.1:1433](http://127.0.0.1:1433) portunda çalışmaktadır.
 
-> **Note:** SQLite Bağlantısı:
+> **Not:** SQLite Bağlantısı:
 
 ```vb
 ' SQLite Connection
@@ -54,14 +55,14 @@ $ sqlite3 C:\Users\%USERPROFILE%\arac\db.sqlite3
 
 ### 📦 Projeyi İndirme
 
-```bash
+```powershell
 $ git clone https://github.com/gurayalinn/arac.git
 $ cd arac
 ```
 
 ### 🚀 Proje gereksinimlerini yükleme ve çalıştırma
 
-```bash
+```powershell
 $ dotnet restore
 
 $ dotnet build
@@ -72,6 +73,17 @@ $ dotnet test
 
 $ dotnet publish -c Release -o dist
 ```
+
+### ⚡Proje Çalıştırma
+
+[Download](https://github.com/gurayalinn/arac/releases/download/first/arac-x64.zip) - 📦 arac-x64.zip
+
+[.NET 8.0](https://dotnet.microsoft.com/download/dotnet/8.0/) - 📦 .NET 8.0]
+
+- .NET 8.0 SDK yüklü olmalıdır.
+- En az Windows 10 x64 işletim sistemi gereklidir.
+- İndirilen dosyayı açın ve `arac.exe` dosyasını çalıştırın.
+- Kullanıcı adı: `admin` ve şifre: `admin123` ile giriş yapabilirsiniz.
 
 ---
 
