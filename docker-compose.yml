@@ -1,0 +1,23 @@
+version: '3.8'
+services:
+  mysql:
+    image: mysql:8.0-bullseye
+    container_name: mysql
+    restart: always
+    environment:
+      MYSQL_USER: user
+      MYSQL_PASSWORD: password
+      MYSQL_DATABASE: aractakip
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_HOST: localhost
+      MYSQL_PORT: 3306
+    ports:
+      - 3306:3306
+    networks:
+      - default
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./dump.sql:/docker-entrypoint-initdb.d/dump.sql
+
+volumes:
+  mysql_data:
