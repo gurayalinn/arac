@@ -1,9 +1,14 @@
 
 # 🚀 Visual Basic .NET - MSSQL | Araç Satış/Kiralama Uygulaması
-
-> **Note:** Bu proje, Visual Basic .NET ile SQLite/MSSQL veritabanı kullanarak araç satış ve kiralama işlemlerini gerçekleştiren otomasyon uygulamasıdır.
+<p align="center">
+  <picture>
+	<img src="https://github.com/gurayalinn/arac/assets/99608413/0638c7ec-0aef-41a0-ab05-918e910abc63" width=66% height=auto alt="banner" />
+</picture>
+</p>
 
 ---
+
+> **Note:** Bu proje, Visual Basic .NET ile SQLite/MSSQL veritabanı kullanarak araç satış ve kiralama işlemlerini gerçekleştiren otomasyon uygulamasıdır.
 
 ## ⚙️ Kurulum:
 
@@ -48,14 +53,14 @@ $ docker run -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=!#1Password" -p 1433:1433 
 Dim connectionString As String = "Data Source=C:\Users\%USERPROFILE%\arac\db.sqlite3;Version=3;"
 ```
 
-```powershell
+```bash
 $ mkdir C:\Users\%USERPROFILE%\arac
 $ sqlite3 C:\Users\%USERPROFILE%\arac\db.sqlite3
 ```
 
 ### 📦 Projeyi İndirme
 
-```powershell
+```bash
 $ git clone https://github.com/gurayalinn/arac.git
 $ cd arac
 ```
