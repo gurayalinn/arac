@@ -74,11 +74,11 @@ $ dotnet test
 $ dotnet publish -c Release -o dist
 ```
 
-### ⚡Proje Çalıştırma
+### ⚡Projeyi Çalıştırma
 
-[Download](https://github.com/gurayalinn/arac/releases/download/first/arac-x64.zip) - 📦 arac-x64.zip
+📦 arac-x64.zip - [Download](https://github.com/gurayalinn/arac/releases/download/first/arac-x64.zip)
 
-[.NET 8.0](https://dotnet.microsoft.com/download/dotnet/8.0/) - 📦 .NET 8.0]
+📦 .NET 8.0 - [Download](https://dotnet.microsoft.com/download/dotnet/8.0/)
 
 - .NET 8.0 SDK yüklü olmalıdır.
 - En az Windows 10 x64 işletim sistemi gereklidir.
